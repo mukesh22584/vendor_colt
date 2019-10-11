@@ -131,7 +131,8 @@ PRODUCT_COPY_FILES += \
 # Priv-app config
 PRODUCT_COPY_FILES += \
     vendor/colt/config/permissions/privapp-permissions-colt.xml:system/etc/permissions/privapp-permissions-colt.xml \
-    vendor/colt/config/permissions/wallpaper_privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/wallpaper_privapp-permissions.xml
+    vendor/colt/config/permissions/wallpaper_privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/wallpaper_privapp-permissions.xml \
+    vendor/colt/config/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml \
 
 # Colt packages
 PRODUCT_PACKAGES += \
